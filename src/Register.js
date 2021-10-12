@@ -121,13 +121,13 @@ export default class Form extends Component {
                     </span>
                     <br />
                     <input type="text" placeholder="Your Email" name="email" value={this.state.email} onChange={this.handleChange} onBlur={this.validateEmail} />
-                    <span className="check" style={{ top: 172 }}>
+                    <span className="check-register" style={{ top: 172 }}>
                         <i className={this.state.emailError}></i>
                     </span>
                     <br />
                     <div>
                         <input autocomplete="new-password" type={this.state.type} placeholder="Your Password" name="password" value={this.state.password} onChange={this.handleChange} />
-                        <span className="eye" style={{ top: 227 }}>
+                        <span className="eye-register" style={{ top: 227 }}>
                             <i className={!this.state.switch ? 'fas fa-eye-slash' : 'fas fa-eye'} onClick={this.togglePassword} ></i>
                         </span>
                     </div>
