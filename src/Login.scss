@@ -105,14 +105,12 @@ form {
                 }
 
                 .error {
-                        position: absolute;
-                        width: 300px;
-                        top: 202px;
-                        right: -30px;
                         font-size: 9px;
                         color: red;
                         font-family: 'Montserrat', sans-serif;
                         letter-spacing: 0.5px;
+                        width: 100%;
+                        padding-left: 2rem;
                 }
 
                 .eye {
